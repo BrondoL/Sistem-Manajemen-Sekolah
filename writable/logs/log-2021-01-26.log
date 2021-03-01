@@ -1,0 +1,204 @@
+CRITICAL - 2021-01-26 15:07:15 --> Undefined index: july
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\spp\search.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 92, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/spp/searc...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(90): view('front/spp/searc...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->searchspp()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-26 15:14:46 --> Invalid file: front/kelulusan/list.php
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/kelulusan...')
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/kelulusan...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(106): view('front/kelulusan...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->cekkelulusan()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-26 15:29:06 --> Call to undefined method App\Models\Modelspp::get_kelulusan_keyword
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(113): CodeIgniter\Model->__call('get_kelulusan_k...', Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->searchkelulusan()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 15:29:43 --> Call to undefined method App\Models\Modelspp::get_kelulusan_keyword
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(113): CodeIgniter\Model->__call('get_kelulusan_k...', Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->searchkelulusan()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 15:30:26 --> Trying to get property 'keterangan' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\kelulusan\search.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 46, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/kelulusan...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(123): view('front/kelulusan...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->searchkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-26 15:30:41 --> Trying to get property 'nama_siswa' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\kelulusan\search.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 48, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/kelulusan...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(123): view('front/kelulusan...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->searchkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-26 15:31:13 --> Undefined index: nama_siswa
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\kelulusan\search.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 48, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/kelulusan...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(123): view('front/kelulusan...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->searchkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-26 15:39:45 --> Undefined offset: 0
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\kelulusan\search.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Project\\Code...', 43, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/kelulusan...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(123): view('front/kelulusan...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->searchkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-26 15:39:51 --> Undefined offset: 0
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\kelulusan\search.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Project\\Code...', 43, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/kelulusan...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(123): view('front/kelulusan...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->searchkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-26 15:58:48 --> Undefined index: jurusan
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\spp\search.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 53, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/spp/searc...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(90): view('front/spp/searc...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->searchspp()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-26 18:38:49 --> Trying to get property 'judul_berita' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 39, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita('Kimetsu-no-yaib...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 18:40:47 --> Trying to get property 'judul_berita' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 39, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita('Kimetsu-no-yaib')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 18:42:15 --> Trying to get property 'judul_berita' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita('Kimetsu-no-yaib')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 18:42:19 --> Trying to get property 'judul_berita' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita('Kimetsu-no-yaib...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 18:42:35 --> Trying to get property 'judul_berita' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita('Kimetsu-no-yaib...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 18:42:42 --> Trying to get property 'judul_berita' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita('Kimetsu-no-yaib...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 18:42:44 -->  route cannot be found while reverse-routing.
+#0 D:\Project\Codeigniter\sekolah\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(35): redirect('home/berita')
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-26 18:42:47 --> Trying to get property 'judul_berita' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita('Kimetsu-no-yaib...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 18:42:55 --> Trying to get property 'judul_berita' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita('Kimetsu-no-yaib...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 18:43:06 --> Trying to get property 'gambar' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\berita\detail.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 25, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/berita/de...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(45): view('front/berita/de...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita('Kimetsu-no-yaib...')
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-26 18:43:15 --> Trying to get property 'judul_berita' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_berita('Kimetsu-no-yaib...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-26 18:46:38 --> Trying to get property 'nama_gallery' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 59, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->detail_gallery('423')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}

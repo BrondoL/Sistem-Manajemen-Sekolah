@@ -1,0 +1,22 @@
+CRITICAL - 2021-01-29 07:24:47 --> Unable to connect to the database.
+#0 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`s...', Array, false)
+#2 D:\Project\Codeigniter\sekolah\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(9): CodeIgniter\Model->first()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-29 07:32:59 --> Unable to connect to the database.
+#0 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`s...', Array, false)
+#2 D:\Project\Codeigniter\sekolah\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(9): CodeIgniter\Model->first()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}

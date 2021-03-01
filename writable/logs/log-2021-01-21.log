@@ -1,0 +1,987 @@
+CRITICAL - 2021-01-21 07:19:15 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-21 07:24:21 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-21 07:24:38 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-21 07:25:18 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-21 07:25:27 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-21 07:25:45 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-21 07:27:58 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-21 08:12:16 --> Undefined index: nama_kategori
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\pengumuman\list.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 17, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/pengumuman...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(24): view('auth/pengumuman...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 08:15:04 --> Call to undefined function long_indo()
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include()
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/pengumuman...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(24): view('auth/pengumuman...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getdata()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-21 08:22:07 --> Undefined offset: 2
+#0 D:\Project\Codeigniter\sekolah\app\Helpers\Tgl_indo_helper.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Project\\Code...', 8, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Views\auth\pengumuman\list.php(20): date_indo(NULL)
+#2 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#3 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/pengumuman...', Array, true)
+#4 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(24): view('auth/pengumuman...', Array)
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getdata()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#10 {main}
+CRITICAL - 2021-01-21 08:23:29 --> Undefined offset: 2
+#0 D:\Project\Codeigniter\sekolah\app\Helpers\Tgl_indo_helper.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Project\\Code...', 8, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Views\auth\pengumuman\list.php(20): date_indo(NULL)
+#2 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#3 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/pengumuman...', Array, true)
+#4 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(24): view('auth/pengumuman...', Array)
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getdata()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#10 {main}
+CRITICAL - 2021-01-21 08:23:33 --> Undefined offset: 2
+#0 D:\Project\Codeigniter\sekolah\app\Helpers\Tgl_indo_helper.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Project\\Code...', 8, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Views\auth\pengumuman\list.php(20): date_indo(NULL)
+#2 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#3 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/pengumuman...', Array, true)
+#4 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(24): view('auth/pengumuman...', Array)
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getdata()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#10 {main}
+CRITICAL - 2021-01-21 08:23:35 --> Undefined offset: 2
+#0 D:\Project\Codeigniter\sekolah\app\Helpers\Tgl_indo_helper.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Project\\Code...', 8, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Views\auth\pengumuman\list.php(20): date_indo(NULL)
+#2 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#3 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/pengumuman...', Array, true)
+#4 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(24): view('auth/pengumuman...', Array)
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getdata()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#10 {main}
+CRITICAL - 2021-01-21 08:25:02 --> Undefined variable: kategori_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\pengumuman\edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 14, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/pengumuman...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(98): view('auth/pengumuman...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formedit()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 08:25:05 --> Undefined variable: kategori_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\pengumuman\edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 14, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/pengumuman...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(98): view('auth/pengumuman...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formedit()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 08:25:08 --> Undefined variable: kategori_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\pengumuman\edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 14, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/pengumuman...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(98): view('auth/pengumuman...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formedit()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 08:53:14 --> Invalid file: auth/kelulusan/index.php
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/kelulusan/...')
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(169): view('auth/kelulusan/...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->kelulusan()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-21 09:02:01 --> Undefined index: spp_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\list.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 29, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(180): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:02:05 --> Undefined index: spp_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\list.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 29, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(180): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:05:11 --> Undefined index: kelas
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\list.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 36, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(180): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:06:01 --> Undefined index: kelas
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\list.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 36, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(180): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:06:02 --> Undefined index: kelas
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\list.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 36, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(180): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:06:05 --> Undefined index: kelas
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\list.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 36, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(180): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:06:27 --> Undefined index: spp_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(626): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 626, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->formeditspp()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 09:06:40 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(790): CodeIgniter\Model->delete(NULL)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->hapusspp()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-21 09:08:15 --> Undefined variable: siswa
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\tambah.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 19, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(194): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:11:55 --> Undefined index: pengumuman_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 93, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 09:13:46 --> Undefined variable: siswa
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\tambah.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 19, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(194): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:13:49 --> Undefined variable: siswa
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\tambah.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 19, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(194): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:14:23 --> Undefined variable: siswa
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\tambah.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 19, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(194): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:40:09 --> Undefined index: pengumuman_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 93, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 09:40:14 --> Undefined index: pengumuman_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 93, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 09:41:23 --> Undefined index: pengumuman_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 93, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 09:42:22 --> Undefined property: App\Controllers\Pengumuman::$kelulusaan
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(277): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project\\Code...', 277, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formeditkelulusan()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 09:43:04 --> Undefined index: spp_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 282, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formeditkelulusan()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 09:44:58 --> Undefined variable: siswa_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 21, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(289): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formeditkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:45:00 --> Undefined variable: siswa_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 21, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(289): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formeditkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 09:45:03 --> Undefined variable: siswa_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 21, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(289): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->formeditkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 10:07:17 --> Undefined index: status
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\list.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 47, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(180): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 10:07:23 --> Undefined index: status
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\kelulusan\list.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 47, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/kelulusan/...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Pengumuman.php(180): view('auth/kelulusan/...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Pengumuman->getkelulusan()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 14:03:16 --> Undefined property: stdClass::$nama_website
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\website.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 14:03:44 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include()
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): view('auth/konfiguras...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-21 14:03:54 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include()
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): view('auth/konfiguras...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-21 14:04:01 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include()
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): view('auth/konfiguras...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-21 14:04:23 --> Undefined index: nama_web
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\website.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 14:07:37 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in D:\Project\Codeigniter\sekolah\system\Model.php on line 1818
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get('konfigurasi_id')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(9): CodeIgniter\Model->__call('get', Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-21 14:08:00 --> Undefined index: nama_web
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 14:15:52 --> Undefined variable: site
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\website.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 55, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(15): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 15:07:41 --> Undefined variable: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\website.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 21, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(25): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 15:08:39 --> Undefined variable: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\website.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 21, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(25): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 15:13:13 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(67): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->submit()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-21 15:13:21 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(67): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->submit()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-21 15:14:21 --> Undefined variable: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\website.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 21, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(25): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 18:13:23 --> Undefined index: gambar
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\berita\upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/berita/upl...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Berita.php(250): view('auth/berita/upl...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Berita->formupload()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 18:13:24 --> Undefined index: gambar
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\berita\upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/berita/upl...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Berita.php(250): view('auth/berita/upl...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Berita->formupload()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 18:18:17 --> Invalid file: auth/konfigurasi/uploadlogos.php
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/konfiguras...')
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(145): view('auth/konfiguras...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-21 18:31:42 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-01-21 18:32:19 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-01-21 18:32:43 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-01-21 18:33:15 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:33:26 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:33:41 --> Call to undefined method App\Models\Modelkonfigurasi::orerderBy
+#0 D:\Project\Codeigniter\sekolah\app\Models\Modelkonfigurasi.php(25): CodeIgniter\Model->__call('orerderBy', Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(9): App\Models\Modelkonfigurasi->getid()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-21 18:33:51 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:33:56 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:34:01 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:36:36 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:36:38 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:36:42 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:36:58 --> Cannot use object of type App\Models\Modelkonfigurasi as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-01-21 18:37:12 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-01-21 18:37:23 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:38:30 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-01-21 18:38:42 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-01-21 18:38:46 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-01-21 18:38:53 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-01-21 18:39:13 --> Cannot use object of type App\Models\Modelkonfigurasi as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-01-21 18:39:28 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:39:48 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:39:54 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:39:57 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:40:07 --> Undefined index: konfigurasi_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 13, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:40:27 --> Undefined index: sampul
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/up...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(144): view('auth/gallery/up...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 18:40:29 --> Undefined index: sampul
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/up...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(144): view('auth/gallery/up...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 18:42:02 --> Undefined index: gambar
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\uploadlogo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(144): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 18:42:03 --> Undefined index: gambar
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\uploadlogo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(144): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 18:42:44 --> Undefined variable: logo
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\uploadlogo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(144): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 18:43:16 --> Undefined variable: berita_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\uploadlogo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 17, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(144): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 18:50:14 --> Call to undefined method App\Models\Modelkonfigurasi::getid
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(9): CodeIgniter\Model->__call('getid', Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:58:34 --> Undefined index: sampul
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 179, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->douploadlogo()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:58:37 --> Undefined index: sampul
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 179, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->douploadlogo()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 18:58:53 --> You must use the "set" method to update an entry.
+#0 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 D:\Project\Codeigniter\sekolah\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(191): CodeIgniter\Model->update(Array, Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->douploadlogo()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-21 19:22:33 --> Undefined variable: logo
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\uploadlogo.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 44, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(145): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 19:22:34 --> Undefined variable: logo
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\uploadlogo.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 44, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(145): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 19:22:49 --> Undefined variable: logo
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\uploadlogo.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 44, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(145): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 19:22:50 --> Undefined variable: logo
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\uploadlogo.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 44, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(145): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 19:32:51 --> Undefined variable: logoweb
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\website.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 169, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(26): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 19:33:19 --> Undefined variable: logoweb
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\website.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 169, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(26): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 19:33:20 --> Undefined variable: logoweb
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\konfigurasi\website.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 169, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/konfiguras...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(26): view('auth/konfiguras...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-21 19:33:29 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 142, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-21 19:34:16 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Konfigurasi.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 142, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Konfigurasi->formuploadlogo()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}

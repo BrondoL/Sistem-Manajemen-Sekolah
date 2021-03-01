@@ -1,0 +1,751 @@
+CRITICAL - 2021-02-12 08:31:34 --> You must use the "set" method to update an entry.
+#0 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 D:\Project\Codeigniter\sekolah\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(458): CodeIgniter\Model->update(Array, Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->douploadfoto()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-02-12 08:32:09 --> You must use the "set" method to update an entry.
+#0 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 D:\Project\Codeigniter\sekolah\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(458): CodeIgniter\Model->update(Array, Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->douploadfoto()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-02-12 08:42:42 --> Invalid file: ppdb/login/uploadijazah.php
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ppdb/login/uplo...')
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/uplo...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(412): view('ppdb/login/uplo...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->formuploadijazah()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-02-12 08:42:45 --> Invalid file: ppdb/login/uploadijazah.php
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ppdb/login/uplo...')
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/uplo...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(412): view('ppdb/login/uplo...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->formuploadijazah()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-02-12 08:44:02 --> unlink(img/ppdb/ijazahFotocopy SKCK.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/ppdb...', 'D:\\Project\\Code...', 447, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(447): unlink('img/ppdb/ijazah...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->douploadijazah()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 09:01:13 --> Undefined variable: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\ppdb\login\ubahpassword.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 51, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/ubah...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(255): view('ppdb/login/ubah...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->ubahpassword()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 09:26:38 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:26:41 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:27:35 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:28:36 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(312): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 312, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:29:06 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:29:21 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:29:57 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:30:00 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:30:16 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:32:18 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(314): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 314, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:32:29 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(314): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 314, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:32:31 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(314): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 314, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:32:33 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(314): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 314, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:32:49 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(315): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 315, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:32:53 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(315): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 315, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:33:00 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:33:04 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:33:13 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(313): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 313, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:41:05 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(314): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 314, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:44:04 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::to(), 0 passed in D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php on line 310 and at least 1 expected
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(310): CodeIgniter\HTTP\RedirectResponse->to()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:52:01 --> Trying to get property 'password' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(301): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 301, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 09:57:24 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(305): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 305, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 10:14:55 --> Illegal string offset 'password'
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Project\\Code...', 301, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 10:46:32 --> Undefined variable: data
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(310): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 310, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 10:47:48 -->  route cannot be found while reverse-routing.
+#0 D:\Project\Codeigniter\sekolah\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(310): redirect('/ppdb')
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-02-12 11:07:00 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(321): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 321, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 11:08:42 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(321): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 321, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 11:13:29 --> Undefined variable: msg
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(331): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 331, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 11:15:04 -->  is not a valid rule.
+#0 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('oldpassword', 'Password Lama', '', Array, Array)
+#2 D:\Project\Codeigniter\sekolah\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(270): CodeIgniter\Controller->validate(Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 11:15:05 -->  is not a valid rule.
+#0 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('oldpassword', 'Password Lama', '', Array, Array)
+#2 D:\Project\Codeigniter\sekolah\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(270): CodeIgniter\Controller->validate(Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 11:15:38 -->  is not a valid rule.
+#0 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('oldpassword', 'Password Lama', '', Array, Array)
+#2 D:\Project\Codeigniter\sekolah\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(270): CodeIgniter\Controller->validate(Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 11:16:11 --> Password Lama is not a valid rule.
+#0 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Password Lama')
+#1 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('oldpassword', 'Password Lama', '', Array, Array)
+#2 D:\Project\Codeigniter\sekolah\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(270): CodeIgniter\Controller->validate(Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 11:16:13 --> Password Lama is not a valid rule.
+#0 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Password Lama')
+#1 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('oldpassword', 'Password Lama', '', Array, Array)
+#2 D:\Project\Codeigniter\sekolah\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(270): CodeIgniter\Controller->validate(Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 11:16:39 --> Password Lama is not a valid rule.
+#0 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Password Lama')
+#1 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('oldpassword', 'Password Lama', '', Array, Array)
+#2 D:\Project\Codeigniter\sekolah\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(270): CodeIgniter\Controller->validate(Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 11:16:40 --> Password Lama is not a valid rule.
+#0 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Password Lama')
+#1 D:\Project\Codeigniter\sekolah\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('oldpassword', 'Password Lama', '', Array, Array)
+#2 D:\Project\Codeigniter\sekolah\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(270): CodeIgniter\Controller->validate(Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->editpassword()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 13:20:30 --> Undefined variable: ppdb
+#0 D:\Project\Codeigniter\sekolah\app\Views\ppdb\login\cetak.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 73, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/ceta...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(627): view('ppdb/login/ceta...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 13:25:20 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 13:41:02 --> syntax error, unexpected ','
+#0 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/ceta...', Array, true)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(634): view('ppdb/login/ceta...', Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 13:41:10 --> syntax error, unexpected '','' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/ceta...', Array, true)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(634): view('ppdb/login/ceta...', Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 13:43:52 --> Undefined variable: no_telp
+#0 D:\Project\Codeigniter\sekolah\app\Views\ppdb\login\cetak.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 96, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/ceta...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(634): view('ppdb/login/ceta...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 13:49:17 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(627): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 627, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 13:49:18 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(627): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 627, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 13:49:51 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(627): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 627, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 13:50:14 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(627): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 627, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 13:50:15 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(627): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 627, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 13:50:16 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(627): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 627, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 13:51:01 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(627): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 627, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 13:51:02 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(627): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 627, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 13:52:46 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(628): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 628, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 13:58:45 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-12 13:58:46 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-12 13:58:52 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-12 13:59:11 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-12 13:59:36 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-12 13:59:49 --> Cannot use object of type stdClass as array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-12 14:00:05 --> Undefined variable: nama_lengkap
+#0 D:\Project\Codeigniter\sekolah\app\Views\ppdb\login\cetak.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 75, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/ceta...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(628): view('ppdb/login/ceta...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 14:00:21 --> Undefined variable: nama_lengkap
+#0 D:\Project\Codeigniter\sekolah\app\Views\ppdb\login\cetak.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 75, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/ceta...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(628): view('ppdb/login/ceta...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 14:00:28 --> Undefined variable: tgl_daftar
+#0 D:\Project\Codeigniter\sekolah\app\Views\ppdb\login\cetak.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 81, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/ceta...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(628): view('ppdb/login/ceta...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 14:00:35 --> Undefined variable: nama_lengkap
+#0 D:\Project\Codeigniter\sekolah\app\Views\ppdb\login\cetak.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 82, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('ppdb/login/ceta...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(628): view('ppdb/login/ceta...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 14:01:43 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 14:01:43 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 14:01:56 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 14:02:14 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 14:02:15 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 14:02:16 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 14:02:16 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 14:02:16 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 14:02:16 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 14:02:17 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(624): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 624, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 19:39:03 --> unlink(img/staf/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'D:\\Project\\Code...', 1047, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(1047): unlink('img/staf/')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->hapusppdb()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 19:39:19 --> unlink(img/staf/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'D:\\Project\\Code...', 1047, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(1047): unlink('img/staf/')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->hapusppdb()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 19:41:01 --> unlink(img/ppdb/ijazah/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/ppdb...', 'D:\\Project\\Code...', 1052, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(1052): unlink('img/ppdb/ijazah...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->hapusppdb()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 19:41:39 --> unlink(img/ppdb/ijazah/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/ppdb...', 'D:\\Project\\Code...', 1052, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(1052): unlink('img/ppdb/ijazah...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->hapusppdb()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 19:42:01 --> unlink(img/ppdb/ijazah/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/ppdb...', 'D:\\Project\\Code...', 1052, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(1052): unlink('img/ppdb/ijazah...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->hapusppdb()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 19:42:49 --> unlink(img/ppdb/ijazah/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/ppdb...', 'D:\\Project\\Code...', 1051, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(1051): unlink('img/ppdb/ijazah...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->hapusppdb()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 19:47:08 --> unlink(img/ppdb/ijazah/ijazah-smp-2017-1-638.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/ppdb...', 'D:\\Project\\Code...', 1077, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(1077): unlink('img/ppdb/ijazah...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->hapusallppdb()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 19:47:31 --> unlink(img/ppdb/ogik.jpeg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/ppdb...', 'D:\\Project\\Code...', 1046, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(1046): unlink('img/ppdb/ogik.j...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->hapusppdb()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-12 20:01:29 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(938): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 938, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->formeditppdb()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-12 20:02:08 --> Undefined variable: nama
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\ppdb\edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 29, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/ppdb/edit', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(943): view('auth/ppdb/edit', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->formeditppdb()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-12 20:10:22 --> Undefined variable: jurusan
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\ppdb\edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 29, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/ppdb/edit', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Siswa.php(943): view('auth/ppdb/edit', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Siswa->formeditppdb()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}

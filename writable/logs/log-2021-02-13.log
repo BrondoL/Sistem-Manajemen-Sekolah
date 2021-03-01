@@ -1,0 +1,431 @@
+CRITICAL - 2021-02-13 09:01:53 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(359): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 359, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->profile()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 10:00:47 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$150299
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(657): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project\\Code...', 657, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->douploadfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 10:00:51 --> unlink(img/ppdb/fa.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/ppdb...', 'D:\\Project\\Code...', 650, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(650): unlink('img/ppdb/fa.png')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->douploadfoto()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-02-13 10:02:00 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$150299
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(657): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project\\Code...', 657, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->douploadfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 10:30:19 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(680): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 680, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 10:30:46 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(680): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 680, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 10:32:32 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(680): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 680, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 10:33:01 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(680): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 680, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 12:27:57 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(680): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 680, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 12:28:54 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(681): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 681, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 12:28:55 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(681): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 681, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 12:28:55 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(681): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 681, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 12:28:56 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(681): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 681, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 12:28:56 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(681): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 681, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 12:28:57 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(681): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 681, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 12:29:49 --> Trying to get property 'ppdb_id' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(681): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 681, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->cetak()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 12:44:44 --> Undefined index: nip
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\layout\menu.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 119, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/layout/me...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(30): view('front/layout/me...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-13 13:04:16 --> Call to undefined method App\Models\Modelstaf::list
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(144): CodeIgniter\Model->__call('list', Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 13:07:31 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:08:09 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:08:10 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:08:10 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:08:10 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:08:18 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:08:19 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:08:19 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:08:27 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:08:54 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:11:05 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:11:08 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:11:08 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:11:08 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:11:09 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:11:09 --> Object of class CodeIgniter\Pager\Pager could not be converted to string
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 13:11:22 --> Trying to get property 'pager' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 151, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 13:11:29 --> Trying to get property 'pager' of non-object
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Project\\Code...', 151, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 13:11:48 --> Undefined variable: pager
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\staf\list.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 58, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/staf/list', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(151): view('front/staf/list', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-13 13:12:54 --> Undefined variable: pager
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\staf\list.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 58, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/staf/list', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(151): view('front/staf/list', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->staf()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-13 14:11:33 --> Undefined variable: list_staf
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\tenagapendidik\guru.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 38, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/tenagapen...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(165): view('front/tenagapen...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->guru()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-13 14:11:53 --> Undefined index: mapel
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\tenagapendidik\guru.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 46, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/tenagapen...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(165): view('front/tenagapen...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->guru()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-13 14:13:20 --> Call to a member function paginate() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->guru()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 14:13:49 --> Call to a member function list() on array
+#0 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->guru()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#5 {main}
+CRITICAL - 2021-02-13 14:14:25 --> Call to a member function links() on null
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include()
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/tenagapen...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(165): view('front/tenagapen...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->guru()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-02-13 14:14:40 --> Call to a member function links() on null
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include()
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/tenagapen...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(165): view('front/tenagapen...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->guru()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-02-13 14:19:16 --> Data too long for column 'alamat' at row 1
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `guru` S...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `guru` S...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `guru` S...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `guru` S...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Project\Codeigniter\sekolah\app\Controllers\Guru.php(240): CodeIgniter\Model->update(Array, Array)
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Guru->update()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#11 {main}
+CRITICAL - 2021-02-13 14:19:22 --> Data too long for column 'alamat' at row 1
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `guru` S...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `guru` S...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `guru` S...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `guru` S...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Project\Codeigniter\sekolah\app\Controllers\Guru.php(240): CodeIgniter\Model->update(Array, Array)
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Guru->update()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#11 {main}
+CRITICAL - 2021-02-13 14:20:02 --> Data too long for column 'alamat' at row 1
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `guru` S...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `guru` S...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `guru` S...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `guru` S...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Project\Codeigniter\sekolah\app\Controllers\Guru.php(240): CodeIgniter\Model->update(Array, Array)
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Guru->update()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#11 {main}
+CRITICAL - 2021-02-13 14:44:17 --> Undefined variable: gallery
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\gallery\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 38, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/gallery/l...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(179): view('front/gallery/l...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->gallery()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-13 14:52:35 --> Undefined variable: berita
+#0 D:\Project\Codeigniter\sekolah\app\Views\front\berita\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 39, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('front/berita/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Home.php(196): view('front/berita/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Home->berita()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-02-13 18:20:28 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 285, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->ubahpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-02-13 18:20:29 --> Undefined index: ppdb_id
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Ppdb.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 285, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Ppdb->ubahpassword()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ppdb))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}

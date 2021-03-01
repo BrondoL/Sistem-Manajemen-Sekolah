@@ -1,0 +1,446 @@
+CRITICAL - 2021-01-06 04:53:47 --> Invalid file: layout/beranda.php
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/beranda....')
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('layout/beranda', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Dashboard.php(9): view('layout/beranda')
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Dashboard->index()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-06 05:51:28 --> Invalid file: staf/index.php
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staf/index.php')
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('staf/index', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(22): view('staf/index', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->index()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-06 06:16:13 --> Undefined index: nobp
+#0 D:\Project\Codeigniter\sekolah\app\Views\staf\list.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 27, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('staf/list', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(34): view('staf/list', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 06:16:27 --> Undefined index: nobp
+#0 D:\Project\Codeigniter\sekolah\app\Views\staf\list.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 27, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('staf/list', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(34): view('staf/list', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 06:16:57 --> Undefined index: nobp
+#0 D:\Project\Codeigniter\sekolah\app\Views\staf\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('staf/list', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(34): view('staf/list', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 06:41:42 --> Cannot declare class App\Controllers\Staf, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-06 06:42:06 --> Cannot declare class App\Controllers\Staf, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-06 18:24:49 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\Project\Codeigniter\sekolah\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Project\\Code...')
+#1 D:\Project\Codeigniter\sekolah\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 18:24:52 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\Project\Codeigniter\sekolah\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Project\\Code...')
+#1 D:\Project\Codeigniter\sekolah\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 18:54:50 --> Allowed fields must be specified for model: App\Models\Modelstaf
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mode...')
+#1 D:\Project\Codeigniter\sekolah\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(133): CodeIgniter\Model->insert(Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->simpan()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-06 18:55:32 --> Allowed fields must be specified for model: App\Models\Modelstaf
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mode...')
+#1 D:\Project\Codeigniter\sekolah\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(133): CodeIgniter\Model->insert(Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->simpan()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-06 19:23:46 --> Undefined variable: list
+#0 D:\Project\Codeigniter\sekolah\app\Views\staf\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 17, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('staf/edit', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(159): view('staf/edit', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->formedit()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 19:41:28 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 437, Array)
+#1 D:\Project\Codeigniter\sekolah\system\Database\Query.php(437): implode(',', Array)
+#2 D:\Project\Codeigniter\sekolah\system\Database\Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `staf` S...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#4 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#5 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `staf` S...', Array, false)
+#6 D:\Project\Codeigniter\sekolah\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#7 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(248): CodeIgniter\Model->update(Array, Array)
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#10 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#13 {main}
+CRITICAL - 2021-01-06 19:42:28 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 437, Array)
+#1 D:\Project\Codeigniter\sekolah\system\Database\Query.php(437): implode(',', Array)
+#2 D:\Project\Codeigniter\sekolah\system\Database\Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `staf` S...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#4 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#5 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `staf` S...', Array, false)
+#6 D:\Project\Codeigniter\sekolah\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#7 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(247): CodeIgniter\Model->update(Array, Array)
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#10 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#13 {main}
+CRITICAL - 2021-01-06 19:43:05 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 437, Array)
+#1 D:\Project\Codeigniter\sekolah\system\Database\Query.php(437): implode(',', Array)
+#2 D:\Project\Codeigniter\sekolah\system\Database\Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `staf` S...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#4 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#5 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `staf` S...', Array, false)
+#6 D:\Project\Codeigniter\sekolah\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#7 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(247): CodeIgniter\Model->update(Array, Array)
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#10 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#13 {main}
+CRITICAL - 2021-01-06 19:47:44 --> You must use the "set" method to update an entry.
+#0 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 D:\Project\Codeigniter\sekolah\app\Models\Modelstaf.php(15): CodeIgniter\Database\BaseBuilder->update(NULL)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(246): App\Models\Modelstaf->updatedata(NULL, Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-06 19:48:11 --> You must use the "set" method to update an entry.
+#0 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 D:\Project\Codeigniter\sekolah\app\Models\Modelstaf.php(15): CodeIgniter\Database\BaseBuilder->update(NULL)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(246): App\Models\Modelstaf->updatedata(NULL, Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-06 19:51:26 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(247): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 19:51:27 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(247): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 19:51:35 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(247): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 19:51:54 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(247): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 19:51:55 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(247): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 19:52:05 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(247): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 19:52:26 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(245): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 19:52:27 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(245): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 19:52:37 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(245): CodeIgniter\Model->update(Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 19:53:03 --> There is no data to update.
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(245): CodeIgniter\Model->update(Array, NULL)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 19:55:47 --> Argument 2 passed to CodeIgniter\Model::updateBatch() must be of the type string or null, array given, called in D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php on line 245
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(245): CodeIgniter\Model->updateBatch(NULL, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-06 19:55:52 --> Argument 2 passed to CodeIgniter\Model::updateBatch() must be of the type string or null, array given, called in D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php on line 245
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(245): CodeIgniter\Model->updateBatch(NULL, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->update()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-06 20:07:37 --> Unknown column 'id' in 'order clause'
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(31): CodeIgniter\Model->findAll()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->getdata()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#11 {main}
+CRITICAL - 2021-01-06 20:16:19 --> Unknown column 'staf_id' in 'order clause'
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(31): CodeIgniter\Model->findAll()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->getdata()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#11 {main}
+CRITICAL - 2021-01-06 20:16:38 --> Undefined index: staf_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\staf\list.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 26, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('staf/list', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(35): view('staf/list', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 20:18:47 --> Undefined index: nip
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 151, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-06 20:18:49 --> Undefined index: nip
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 151, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-06 20:18:54 --> Undefined index: nip
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 151, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-06 20:18:55 --> Undefined index: nip
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 151, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-06 20:28:25 --> Undefined index: ids
+#0 D:\Project\Codeigniter\sekolah\app\Views\staf\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 38, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('staf/list', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(35): view('staf/list', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 20:32:02 --> Undefined index: id
+#0 D:\Project\Codeigniter\sekolah\app\Views\staf\list.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 26, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('staf/list', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(35): view('staf/list', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 20:32:58 --> Undefined index: staf_isd
+#0 D:\Project\Codeigniter\sekolah\app\Views\staf\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 38, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('staf/list', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(35): view('staf/list', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 20:50:01 --> Undefined variable: staf_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\staf\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 17, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('staf/edit', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(160): view('staf/edit', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->formedit()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-06 21:04:53 --> Undefined property: App\Controllers\Staf::$staff
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(273): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project\\Code...', 273, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->formupload()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-06 21:04:54 --> Undefined property: App\Controllers\Staf::$staff
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(273): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project\\Code...', 273, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->formupload()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-06 21:04:58 --> Undefined property: App\Controllers\Staf::$staff
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(273): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project\\Code...', 273, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->formupload()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-06 21:09:08 --> unlink(img/staf/thumb/thumb_1081354.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'D:\\Project\\Code...', 317, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(317): unlink('img/staf/thumb/...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->doupload()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-06 22:14:56 --> Undefined property: App\Controllers\Staf::$mhs
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(290): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project\\Code...', 290, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->hapusall()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-06 22:15:15 --> unlink(img/staf/751214.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'D:\\Project\\Code...', 287, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Staf.php(287): unlink('img/staf/751214...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Staf->hapusall()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}

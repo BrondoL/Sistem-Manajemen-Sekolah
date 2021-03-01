@@ -1,0 +1,1437 @@
+CRITICAL - 2021-01-20 06:26:20 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'sekolah_ci4.gallery.gallery_id'; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `gall...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `gall...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `gall...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, `gall...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:26:26 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'sekolah_ci4.gallery.gallery_id'; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `gall...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `gall...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `gall...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, `gall...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:26:35 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'sekolah_ci4.gallery.gallery_id'; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `gall...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `gall...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `gall...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, `gall...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:27:35 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'sekolah_ci4.gallery.gallery_id'; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `gall...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `gall...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `gall...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, `gall...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:41:40 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'sekolah_ci4.gallery.gallery_id'; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `gall...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `gall...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `gall...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, `gall...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:41:45 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'sekolah_ci4.gallery.gallery_id'; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `gall...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `gall...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `gall...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, `gall...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:41:55 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'sekolah_ci4.gallery.gallery_id'; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `gall...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `gall...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `gall...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, `gall...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:45:04 --> Undefined index: jml_foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 39, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 06:46:12 --> Column 'gallery_id' in order clause is ambiguous
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:47:03 --> Undefined index: nama
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 36, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 06:50:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS `gallery_id)`
+FROM `gallery`
+JOIN `user` ON `user`.`user_id` = `gallery`.`u' at line 1
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(fo...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(fo...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(fo...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(fo...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:51:16 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 33, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 06:52:05 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 141, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 06:52:16 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 87, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 06:52:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*
+FROM `gallery`
+JOIN `user` ON `user`.`user_id` = `gallery`.`user_id`
+JOIN `fot' at line 1
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(`f...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`f...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`f...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`f...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(29): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:53:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`gallery_id`
+FROM `gallery`
+JOIN `user` ON `user`.`user_id` = `gallery`.`user_i' at line 1
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:53:46 --> Unknown column 'foto.gallery_id' in 'field list'
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(`f...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`f...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`f...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`f...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(25): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:54:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 06:54:24 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 33, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 06:54:48 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 87, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 06:54:51 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/up...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(189): view('auth/gallery/up...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formupload()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 06:55:05 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 163, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapusall()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 06:56:11 --> You must provide a valid column name not separated by comma.
+#0 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(511): CodeIgniter\Database\Exceptions\DataException::forInvalidArgument('column name not...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(481): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('*, gallery.*,co...', '', 'COUNT')
+#2 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->selectCount('*, gallery.*,co...')
+#3 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(25): CodeIgniter\Model->__call('selectCount', Array)
+#4 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#10 {main}
+CRITICAL - 2021-01-20 06:56:49 --> You must provide a valid column name not separated by comma.
+#0 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(511): CodeIgniter\Database\Exceptions\DataException::forInvalidArgument('column name not...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(481): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('gallery.*,count...', '', 'COUNT')
+#2 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->selectCount('gallery.*,count...')
+#3 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(26): CodeIgniter\Model->__call('selectCount', Array)
+#4 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#10 {main}
+CRITICAL - 2021-01-20 06:57:32 --> You must provide a valid column name not separated by comma.
+#0 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(511): CodeIgniter\Database\Exceptions\DataException::forInvalidArgument('column name not...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(481): CodeIgniter\Database\BaseBuilder->maxMinAvgSum('gallery.*,foto....', '', 'COUNT')
+#2 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->selectCount('gallery.*,foto....')
+#3 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(26): CodeIgniter\Model->__call('selectCount', Array)
+#4 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#10 {main}
+CRITICAL - 2021-01-20 06:57:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as `jml_foto`) AS `gallery_id as jml_foto`
+FROM `gallery`
+JOIN `user` ON `user`.' at line 1
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(29): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(20): App\Models\Modelgallery->listjoin()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 06:59:46 --> Undefined index: gallery_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 30, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:00:49 --> Undefined index: gallery_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 30, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:03:22 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 87, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:05:29 --> Undefined variable: mesmew
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 26, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:08:17 --> Array to string conversion
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:08:37 --> Array to string conversion
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:08:55 --> Array to string conversion
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:09:54 --> Array to string conversion
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:10:07 --> Array to string conversion
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:11:13 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include()
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-20 07:11:50 --> Array to string conversion
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:12:43 --> Array to string conversion
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:13:09 --> Array to string conversion
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:13:41 --> Undefined index: jumlah_foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:14:25 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include()
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-20 07:14:44 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include()
+#1 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#2 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#8 {main}
+CRITICAL - 2021-01-20 07:14:56 --> Array to string conversion
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(25): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 07:23:32 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 148, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:23:39 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 148, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:23:57 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 148, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:29:36 --> Undefined variable: cekfoto
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 147, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:30:01 --> Undefined index: foto
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 148, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:30:44 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 148, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:31:29 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 67108872 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-20 07:34:02 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 148, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:34:48 --> Invalid argument supplied for foreach()
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Project\\Code...', 147, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:36:53 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 147, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:37:15 --> Invalid argument supplied for foreach()
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Project\\Code...', 147, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:38:01 --> Invalid argument supplied for foreach()
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Project\\Code...', 147, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:38:16 --> Invalid argument supplied for foreach()
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Project\\Code...', 147, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:38:40 --> Invalid argument supplied for foreach()
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Project\\Code...', 147, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:39:13 --> Invalid argument supplied for foreach()
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Project\\Code...', 147, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:39:57 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 147, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:45:12 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Project\\Code...', 148, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(148): count(NULL)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-20 07:45:39 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Project\\Code...', 148, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(148): count('16')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-20 07:46:25 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Project\\Code...', 148, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(148): count('16')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-20 07:48:08 --> Undefined index: foto
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 143, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:49:14 --> Column 'gallery_id' in where clause is ambiguous
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(27): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(141): App\Models\Modelgallery->hapusfoto('16')
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 07:49:37 --> Undefined index: sampul
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 142, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:49:58 --> Undefined index: foto
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 143, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:50:45 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 143, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:51:00 --> Undefined index: foto
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 143, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:52:16 --> Undefined index: fotos
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 143, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 07:56:55 --> Undefined index: foto
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 144, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:00:49 --> unlink(img/foto/levi ackerman.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/foto...', 'D:\\Project\\Code...', 347, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(347): unlink('img/foto/levi a...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapusfoto()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-20 08:18:44 --> Column 'gallery_id' in where clause is ambiguous
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(29): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 08:18:48 --> Column 'gallery_id' in where clause is ambiguous
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(29): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 08:21:24 --> Undefined variable: jml
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 41, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:21:52 --> Undefined index: jumlah_foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 41, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:22:39 --> Undefined index: foto.gallery_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 41, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:23:39 --> Undefined index: jumlah_foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:23:56 --> Undefined index: nama
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 36, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:28:51 --> Undefined index: jumlah_foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:30:24 --> Undefined index: jumlah_foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:31:39 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:31:40 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:31:41 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:31:41 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:31:41 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:32:00 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/up...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(200): view('auth/gallery/up...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formupload()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:32:00 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/up...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(200): view('auth/gallery/up...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formupload()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:32:01 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/up...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(200): view('auth/gallery/up...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formupload()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:32:03 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/up...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(200): view('auth/gallery/up...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formupload()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:32:30 --> Undefined index: jumlah_foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:34:17 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:34:44 --> Undefined index: jumlah_foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:35:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.*
+FROM `gallery`
+LEFT JOIN `foto` ON `foto`.`gallery_id` = `gallery`.`gallery_i' at line 1
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 08:35:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.*
+FROM `gallery`
+JOIN `foto` ON `foto`.`gallery_id` = `gallery`.`gallery_id`
+JO' at line 1
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(*)...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 08:36:14 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:36:15 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:36:15 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:36:15 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:37:02 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:37:06 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:37:06 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:37:06 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:37:06 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:37:07 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:37:07 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 268, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:37:15 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 87, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:37:20 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 87, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:37:28 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\upload.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/up...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(200): view('auth/gallery/up...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formupload()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 08:38:23 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 87, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:38:26 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 87, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formedit()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:38:28 --> Trying to access array offset on value of type null
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project\\Code...', 141, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:48:59 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 08:52:22 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(22): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 08:55:19 --> Call to undefined method App\Models\Modelfoto::jumlahfoto
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(18): CodeIgniter\Model->__call('jumlahfoto', Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 08:58:19 --> Undefined index: foto.gallery_id
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(26): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 09:00:10 --> Undefined index: jumlah_foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(26): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 09:01:01 --> Column 'gallery_id' in where clause is ambiguous
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `gall...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `gall...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `gall...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, `gall...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->first()
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(18): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 09:01:19 --> Too few arguments to function App\Models\Modelgallery::jumlahfoto(), 0 passed in D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php on line 18 and exactly 1 expected
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(18): App\Models\Modelgallery->jumlahfoto()
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 09:02:30 --> Column 'gallery_id' in where clause is ambiguous
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `gall...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `gall...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `gall...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, `gall...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->first()
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(19): App\Models\Modelgallery->jumlahfoto(NULL)
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 09:03:26 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project\\Code...', 437, Array)
+#1 D:\Project\Codeigniter\sekolah\system\Database\Query.php(437): implode(',', Array)
+#2 D:\Project\Codeigniter\sekolah\system\Database\Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('SELECT *, `gall...', Array)
+#3 D:\Project\Codeigniter\sekolah\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#4 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#5 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, `gall...', Array, false)
+#6 D:\Project\Codeigniter\sekolah\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#7 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(28): CodeIgniter\Model->first()
+#8 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(19): App\Models\Modelgallery->jumlahfoto(Array)
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#10 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#11 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#14 {main}
+CRITICAL - 2021-01-20 09:03:46 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in D:\Project\Codeigniter\sekolah\system\Model.php on line 1818
+#0 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get('nama_gallery', 'ASC')
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(18): CodeIgniter\Model->__call('get', Array)
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-20 09:04:10 --> Undefined variable: hasil
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 40, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/li...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(24): view('auth/gallery/li...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 09:09:40 --> unlink(img/foto/bca9e7dd8c8fd9f5b093f576b1e5a653.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/foto...', 'D:\\Project\\Code...', 348, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(348): unlink('img/foto/bca9e7...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapusfoto()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-20 09:09:44 --> unlink(img/foto/bca9e7dd8c8fd9f5b093f576b1e5a653.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/foto...', 'D:\\Project\\Code...', 150, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(150): unlink('img/foto/bca9e7...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-20 09:48:36 --> unlink(img/foto/levi ackerman.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/foto...', 'D:\\Project\\Code...', 358, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(358): unlink('img/foto/levi a...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapusfoto()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-20 09:51:41 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 278, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 09:52:03 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 278, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 09:52:46 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 278, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 16:41:35 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 16:58:48 --> Undefined index: foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\foto.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 18, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/fo...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(284): view('auth/gallery/fo...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->formfoto()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 17:02:26 --> Undefined index: foto
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 356, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapusfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 17:02:29 --> Undefined index: foto
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 356, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapusfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 17:44:15 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 278, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 17:44:48 --> Undefined variable: foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\tambahfoto.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/ta...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(278): view('auth/gallery/ta...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getfoto()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 17:45:04 --> Undefined variable: foto
+#0 D:\Project\Codeigniter\sekolah\app\Views\auth\gallery\tambahfoto.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project\\Code...', 15, Array)
+#1 D:\Project\Codeigniter\sekolah\system\View\View.php(246): include('D:\\Project\\Code...')
+#2 D:\Project\Codeigniter\sekolah\system\Common.php(1119): CodeIgniter\View\View->render('auth/gallery/ta...', Array, true)
+#3 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(278): view('auth/gallery/ta...', Array)
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getfoto()
+#5 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#6 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#9 {main}
+CRITICAL - 2021-01-20 17:46:02 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 278, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 17:46:20 --> Undefined index: nama_gallery
+#0 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project\\Code...', 278, Array)
+#1 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getfoto()
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#6 {main}
+CRITICAL - 2021-01-20 17:59:02 --> unlink(img/foto/Dok baru 2020-11-08 21.30.54_2(2).jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/foto...', 'D:\\Project\\Code...', 150, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(150): unlink('img/foto/Dok ba...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapus()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-20 17:59:10 --> unlink(img/foto/Dok baru 2020-11-08 21.30.54_2(2).jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/foto...', 'D:\\Project\\Code...', 358, Array)
+#1 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(358): unlink('img/foto/Dok ba...')
+#2 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->hapusfoto()
+#3 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#7 {main}
+CRITICAL - 2021-01-20 18:18:14 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
+CRITICAL - 2021-01-20 18:19:32 --> Expression #7 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'sekolah_ci4.foto.foto_id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\Project\Codeigniter\sekolah\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, COUNT...')
+#1 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, COUNT...')
+#2 D:\Project\Codeigniter\sekolah\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, COUNT...')
+#3 D:\Project\Codeigniter\sekolah\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *, COUNT...', Array, false)
+#4 D:\Project\Codeigniter\sekolah\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project\Codeigniter\sekolah\app\Models\Modelgallery.php(31): CodeIgniter\Model->__call('get', Array)
+#6 D:\Project\Codeigniter\sekolah\app\Controllers\Gallery.php(21): App\Models\Modelgallery->jumlahfoto()
+#7 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(918): App\Controllers\Gallery->getdata()
+#8 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#9 D:\Project\Codeigniter\sekolah\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project\Codeigniter\sekolah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Project\Codeigniter\sekolah\system\Commands\Server\rewrite.php(34): require_once('D:\\Project\\Code...')
+#12 {main}
